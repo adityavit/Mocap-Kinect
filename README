@@ -1,6 +1,19 @@
-Copy the kinectAssignment directory at your kinect/NITE-Bin-Dev-Linux-x64-v1.5.2.21/Samples directory
-(Because I have created the Makefile relative to this path)
+ASSIGNMENT 03
+-------------
+GAME : PopThemAll
 
+By: Aditya Bhatia
+    Belmannu Seema Acharya
+------------
+How to play this game?
+
+In this game, you can find filled circles running across the screen and the user got to hover 
+over one of the moving circles and move their hand towards the kinect, thus decreasing the 
+depth value. This will expand the ball and after a paticular predefined threshold the circle
+pops and you score a point!
+
+------------
+Copy the kinectAssignment directory at your kinect/NITE-Bin-Dev-Linux-x64-v1.5.2.21/Samples directory
 
 To Compile
 ----------
