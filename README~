@@ -1,0 +1,19 @@
+To Compile
+----------
+>Open terminal, go to the folder "kinectAssignment" eg: cd kinectAssignment
+>To compile type "make" and press enter
+>ignore warnings, if any
+
+To Run
+------
+> If it compiled without errors, then it must have created a folder "x86-Release" or "x64-Release" inside the folder kinectAssignment. Go to this folder and run following command
+./kinectAssignment
+
+
+You only need to edit DrawDepthMap function in SceneDrawer.cpp file
+
+This function takes kinect depth map as input and does 2 major things
+1. Remove noise (by only displaying pixels if number of pixels at a given depth is greater than a threshold, you have to guess a good value for threshold)
+2. It will display pixels only if they are in a distance range(you need to set this distance value according to your game requirement).
+
+Comments are being provided whereever required, Please read them, they provide useful information
